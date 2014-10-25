@@ -3,6 +3,5 @@ language: java
 jdk:
   - oraclejdk8
   
-script:
-  - mvn test -B
-  - mvn integrationtest -B
+script: "mvn test integration-test -B"
+  
